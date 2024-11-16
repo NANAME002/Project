@@ -9,7 +9,7 @@ namespace ConsoleApp5
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {//метод F
             Console.Write("Введите координаты вершин x1= ");
             double x1 = Convert.ToDouble(Console.ReadLine());
             Console.Write("Введите координаты вершин y2= ");
@@ -19,6 +19,7 @@ namespace ConsoleApp5
             Console.Write("Введиет координаты вершин y2= ");
             double y2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine($"d={Dl(x1, y1, x2, y2):F1}");
+            //метод D
             Console.Write("Введите значения a= ");
             double a = Convert.ToDouble(Console.ReadLine());
             Console.Write("Введите значение b= ");
